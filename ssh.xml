@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- 远程服务器配置 -->
+    <remote name="gitee"
+        fetch="<在此处填写远程地址>" />
+
+    <!-- 默认参数 -->
+    <default remote="gitee"
+        revision="master"
+        sync-j="3" />
+
+    <!-- 项目配置 -->
+    <project path="KnowledgeBase" name="KnowledgeBase" />
+    <project path="Study-Java" name="Study-Java" />
+    <project path="Study-Android" name="Study-Android" />
+</manifest>
