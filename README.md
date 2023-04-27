@@ -30,10 +30,10 @@ mkdir Study; cd Study;
 
 # 以下命令根据需要二选一即可
 
-# 加载默认的Manifest文件(SSH)
+# 加载Manifest文件(SSH)
 repo init -u git@github.com:BI4VMR/Study-Manifests
 
-# 加载默认的Manifest文件(HTTP)
+# 加载Manifest文件(HTTP)
 repo init -u git@github.com:BI4VMR/Study-Manifests -m http.xml
 ```
 
