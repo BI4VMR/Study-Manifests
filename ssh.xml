@@ -2,11 +2,11 @@
 <manifest>
 
     <!-- 远程服务器配置 -->
-    <remote name="gitee"
-        fetch="<在此处填写远程地址>" />
+    <remote name="github"
+        fetch="ssh://git@github.com/BI4VMR" />
 
     <!-- 默认参数 -->
-    <default remote="gitee"
+    <default remote="github"
         revision="master"
         sync-j="3" />
 
