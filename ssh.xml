@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- 远程服务器配置 -->
+    <remote name="github"
+        fetch="ssh://git@github.com/BI4VMR" />
+
+    <!-- 默认参数 -->
+    <default remote="github"
+        revision="master"
+        sync-j="3" />
+
+    <!-- 项目配置 -->
+    <project path="KnowledgeBase" name="KnowledgeBase" />
+    <project path="Study-Java" name="Study-Java" />
+    <project path="Study-Android" name="Study-Android" />
+    <project path="Study-Network" name="Study-Network" />
+    <project path="Study-Manifests-Github" name="Study-Manifests" />
+</manifest>
