@@ -49,3 +49,28 @@ Repo创建的项目可能会出现头指针分离现象，此处使用Repo统一
 ```text
 repo forall -c "git checkout master"
 ```
+
+# 推荐配置
+为了防止Windows环境Git自动将换行符进行转换导致Bash脚本无法被执行，我们可以对当前工程添加以下配置，提交与拉取文件均不改变换行符。
+
+```text
+git config core.autocrlf false
+```
+
+
+<!-- Hide
+
+# 提交命令
+常用：
+
+```text
+msg=$(uuidgen | awk '{print toupper($0)}'); git add .; git commit -m "$msg"; git push;
+```
+
+完整：
+
+```text
+msg=$(uuidgen | awk '{print toupper($0)}'); git add .; git commit -m "$msg";git push github; git push private;
+```
+
+-->
