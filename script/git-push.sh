@@ -6,10 +6,11 @@ function push(){
         cd $1
         if [[ -n $(git status -s) ]]
         then
-            msg=$(uuidgen | awk "{print toupper(\$0)}"); git add .; git commit -m "$msg"; git push;
+            msg=$(uuidgen | awk "{print toupper(\$0)}"); git add .; git commit -m "$msg";
         else
-            echo -e "\n项目【$1】无变化，已忽略。"
+            echo -e "\n项目【$1】无变化，无需提交。"
         fi
+        git push;
         cd ..
     else
         echo -e "\n项目【$1】不存在，已跳过！"
