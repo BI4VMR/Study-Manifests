@@ -57,6 +57,16 @@ repo forall -c "git checkout master"
 git config core.autocrlf false
 ```
 
+在Shell环境变量中添加以下别名，可以便捷地调用脚本。
+
+```shell
+# ----- 自定义别名 -----
+
+alias cdstudy='cd; cd Project/Study'
+alias study-sync='cdstudy; bash ./Study-Manifests/script/git-pull.sh; cd;'
+alias study-commit='cdstudy; bash ./Study-Manifests/script/git-push.sh; cd;'
+```
+
 
 <!-- Hide
 
