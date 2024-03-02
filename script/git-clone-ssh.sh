@@ -11,11 +11,13 @@ function clone(){
 }
 
 clone KnowledgeBase
+clone Study-C
 clone Study-Java
 clone Study-Kotlin
 clone Study-Android
 clone Study-DesignPattern
 clone Study-Network
+
 
 # 配置远程服务器
 function config(){
@@ -24,6 +26,8 @@ function config(){
         cd $1
         git remote rename origin github
         git branch --set-upstream-to="github/master" "master"
+        git config user.name "BI4VMR"
+        git config user.email "bi4vmr@outlook.com"
         cd ..
     else
         echo -e "\n项目【$1】不存在，已跳过！"
@@ -31,6 +35,7 @@ function config(){
 }
 
 config KnowledgeBase
+config Study-C
 config Study-Java
 config Study-Kotlin
 config Study-Android

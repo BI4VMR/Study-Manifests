@@ -18,8 +18,10 @@ function push(){
 }
 
 push KnowledgeBase
+push Study-C
 push Study-Java
 push Study-Kotlin
 push Study-Android
 push Study-DesignPattern
 push Study-Network
+push Study-Manifests

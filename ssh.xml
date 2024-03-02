@@ -11,6 +11,7 @@
 
     <!-- 项目配置 -->
     <project path="KnowledgeBase" name="KnowledgeBase" />
+    <project path="Study-C" name="Study-C" />
     <project path="Study-Java" name="Study-Java" />
     <project path="Study-Android" name="Study-Android" />
     <project path="Study-Network" name="Study-Network" />
