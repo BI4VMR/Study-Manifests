@@ -15,6 +15,7 @@ function config(){
 
 config KnowledgeBase
 config Study-C
+config Study-CPP
 config Study-Java
 config Study-Kotlin
 config Study-Android

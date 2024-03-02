@@ -12,6 +12,7 @@ function clone(){
 
 clone KnowledgeBase
 clone Study-C
+clone Study-CPP
 clone Study-Java
 clone Study-Kotlin
 clone Study-Android
@@ -36,6 +37,7 @@ function config(){
 
 config KnowledgeBase
 config Study-C
+config Study-CPP
 config Study-Java
 config Study-Kotlin
 config Study-Android

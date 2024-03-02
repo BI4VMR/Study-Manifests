@@ -13,6 +13,7 @@ function pull(){
 
 pull KnowledgeBase
 pull Study-C
+pull Study-CPP
 pull Study-Java
 pull Study-Kotlin
 pull Study-Android
