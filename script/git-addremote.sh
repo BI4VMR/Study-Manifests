@@ -6,6 +6,7 @@ function config(){
         echo -e "\n开始处理项目【$1】..."
         cd $1
         git remote add private "git@172.18.5.1:bi4vmr/$1.git"
+        git remote add private-frp "http://frp-few.top:62688/bi4vmr/$1.git"
         git remote add private-vpn "http://192.168.128.1:30002/bi4vmr/$1.git"
         cd ..
     else
