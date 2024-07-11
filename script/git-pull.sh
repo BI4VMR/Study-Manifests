@@ -4,6 +4,7 @@ function pull(){
     if [ -d $1 ];then
         echo -e "\n开始处理项目【$1】..."
         cd $1
+        # git branch --set-upstream-to=github/master master
         git pull
         cd ..
     else
