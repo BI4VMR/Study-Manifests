@@ -4,8 +4,13 @@ function push(){
     if [ -d $1 ];then
         echo -e "\n开始处理项目【$1】..."
         cd $1
-	git push -u private-frp master
-        git branch --set-upstream-to="private-frp/master" "master"
+        if [[ -n $(git status -s) ]]
+        then
+            msg=$(uuidgen | awk "{print toupper(\$0)}"); git add .; git commit -m "$msg";
+        else
+            echo -e "\n项目【$1】无变化，无需提交。"
+        fi
+        git push private-frp master;
         cd ..
     else
         echo -e "\n项目【$1】不存在，已跳过！"
