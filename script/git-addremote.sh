@@ -10,7 +10,7 @@ function config(){
         # 私有仓库（VPN）
         git remote add private-vpn "http://192.168.128.1:30002/bi4vmr/$1.git"
         # 私有仓库（FRP）
-        git remote add private-frp "https://9640nsp1-30002.asse.devtunnels.ms/bi4vmr/$1.git"
+        git remote add private-frp ""
         cd ..
     else
         echo -e "\n项目【$1】不存在，已跳过！"
