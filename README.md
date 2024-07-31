@@ -51,12 +51,14 @@ repo forall -c "git checkout master"
 ```
 
 # 推荐配置
+## 换行符
 为了防止Windows环境Git自动将换行符进行转换导致Bash脚本无法被执行，我们可以对当前工程添加以下配置，提交与拉取文件均不改变换行符。
 
 ```text
 git config core.autocrlf false
 ```
 
+## 快捷命令
 在Shell环境变量中添加以下别名，可以便捷地调用脚本。
 
 ```shell
