@@ -24,5 +24,6 @@ push Study-Java
 push Study-Kotlin
 push Study-Android
 push Study-DesignPattern
+push Study-Shell
 push Study-Network
 push Study-Manifests
