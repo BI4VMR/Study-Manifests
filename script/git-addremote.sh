@@ -26,4 +26,5 @@ config Study-Android
 config Study-DesignPattern
 config Study-Network
 config Study-Shell
+config Study-Software
 config Study-Manifests

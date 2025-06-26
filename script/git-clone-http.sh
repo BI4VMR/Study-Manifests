@@ -18,6 +18,7 @@ clone Study-Kotlin
 clone Study-Android
 clone Study-DesignPattern
 clone Study-Shell
+clone Study-Software
 clone Study-Network
 
 
@@ -44,4 +45,5 @@ config Study-Kotlin
 config Study-Android
 config Study-DesignPattern
 config Study-Shell
+config Study-Software
 config Study-Network

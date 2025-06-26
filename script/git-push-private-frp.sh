@@ -26,4 +26,5 @@ push Study-Android
 push Study-DesignPattern
 push Study-Shell
 push Study-Network
+push Study-Software
 push Study-Manifests
